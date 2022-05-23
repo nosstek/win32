@@ -342,7 +342,7 @@ A value that displays Help for Schtasks.exe.
 
 ## Running a Task
 
-The following syntax is used to immediately run a scheduled task.
+The following syntax is used to run a scheduled task.
 
 ``` syntax
 schtasks /Run 
@@ -372,6 +372,13 @@ A value that specifies the user context under which Schtasks.exe should run.
 </dt> <dd>
 
 A value that specifies the password for the given user context. If omitted, Schtasks.exe prompts the user for input.
+
+</dd> <dt>
+
+<span id="_I_immediately"></span><span id="_i_immediately"></span><span id="_I_IMMEDIATELY"></span>**/I**
+</dt> <dd>
+
+Runs the task immediately by ignoring any constraint.
 
 </dd> <dt>
 
